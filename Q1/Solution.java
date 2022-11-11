@@ -32,10 +32,14 @@ public class Solution {
     String[] tempShirtSize = shopStockSizes.split(" ");
     List<String> shirtSize = new ArrayList<String>(Arrays.asList(tempShirtSize));
 
+    String[] requestSplit = requestSizes.split(" ");
+    List<String> requestsList = new ArrayList<String>(Arrays.asList(requestSplit));
     
-    
-    //go through requests and see if there is a size for it, else print no and return 
-    
+    //input into TreeMap
+    //sort shirtSize (store stock) into TreeMap
+
+    //iterate through requestsList and remove elements bigger than the request, if can't print no and return
+
 
     //print yes and return
     System.out.println("Yes");
